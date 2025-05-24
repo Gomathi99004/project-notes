@@ -1,13 +1,14 @@
-
 import './App.css'
+import AppRoutes from './routes/AppRoutes'
+import BasicLayouts from './layouts/BasicLayouts';
 
 function App() {
-
   return (
     <>
-     <button>click me</button>
+   
+      <AppRoutes/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
